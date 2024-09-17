@@ -1,0 +1,83 @@
+[
+    {
+        "datos": "¿Las hojas tienen forma de aguja?",
+        "si": {
+            "datos": "¿Tiene acículas largas?",
+            "si": {
+                "datos": "Pino"
+            },
+            "no": {
+                "datos": "¿Tiene sus acículas verticiliadas?",
+                "si": {
+                    "datos": "Cedro"
+                },
+                "no": {
+                    "datos": "Abeto"
+                }
+            }
+        },
+        "no": {
+            "datos": "¿Son hojas escamosas e imbricadas?",
+            "si": {
+                "datos": "¿Las hojas son compuestas?",
+                "si": {
+                    "datos": "¿Son hojas palmado-compuestas?",
+                    "si": {
+                        "datos": "Castaño de indias"
+                    },
+                    "no": {
+                        "datos": "¿Tiene fruto en legumbre?",
+                        "si": {
+                            "datos": "Falsa Acacia"
+                        },
+                        "no": {
+                            "datos": "Fresno"
+                        }
+                    }
+                },
+                "no": {
+                    "datos": "¿Sus hojas son duras?",
+                    "si": {
+                        "datos": "¿El fruto es una beyota?",
+                        "si": {
+                            "datos": "Encina"
+                        },
+                        "no": {
+                            "datos": "Madroño"
+                        }
+                    },
+                    "no": {
+                        "datos": "¿Sus hojas son Penninervia?",
+                        "si": {
+                            "datos": "¿Es su hoja dos veces más larga que ancha",
+                            "si": {
+                                "datos": "Sauce llorón"
+                            },
+                            "no": {
+                                "datos": "¿Tiene el borde inferior asimetrico?",
+                                "si": {
+                                    "datos": "Olmo"
+                                },
+                                "no": {
+                                    "datos": "Chopo"
+                                }
+                            }
+                        },
+                        "no": {
+                            "datos": "¿Su fruto tiene dos alas que forman un ángulo?",
+                            "si": {
+                                "datos": "Arce"
+                            },
+                            "no": {
+                                "datos": "Plátano de sombra"
+                            }
+                        }
+                    }
+                }
+            },
+            "no": {
+                "datos": "Ciprés"
+            }
+        }
+    }
+]
